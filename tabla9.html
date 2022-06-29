@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejemplo de tabla9</title>
+        <style type="text/css">
+          table,
+          td {
+            border: 1px solid black;
+          }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Módulos</caption>
+                <tr>
+                    <td>Primero</td>
+                    <td><!--En esta segunda celda de la primera fila va la tabla anidada.-->
+                        <table border="1">
+                            <tr>
+                                <td>LM</td>
+                                <td>ISO</td>
+                                <td>SGBD</td>
+                            </tr>
+                            <tr>
+                                <td>ING</td>
+                                <td>REDES</td>
+                                <td>FOL</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Segundo</td>
+                    <td>El próximo curso</td>
+                </tr>
+        </table>
+    </body>
+</html>
